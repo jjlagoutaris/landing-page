@@ -44,6 +44,7 @@ a{
 }
 .advertisement-for-service{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 32px;
     height: 300px;
@@ -54,28 +55,31 @@ a{
 .clickbait{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .hero-text{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    width: 300px;
+    width: 400px;
     margin-bottom: 0;
 }
 .clickbait-text{
     width: 400px;
+    margin-bottom: 8px;
 }
 .egg-ad{
     height: auto;
     width: 300px;
-    margin: 10px 0 10px auto;
+    margin-left: 250px;
+    border-radius: 20px;
 }
 .sign-up-btn-top,
 .sign-up-btn-bottom{
     background-color: #3882F6;
     width: 128px;
     height: 32px;
-    margin: 10px 0px;
+    margin: 8px 0px;
     border-radius: 7.5px;
 }
 
