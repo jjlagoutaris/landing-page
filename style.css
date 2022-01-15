@@ -123,6 +123,9 @@ a{
     width: 200px;
     height: auto;
     color: #6C63FF;
+    background-color: #c1f926;
+    border: 1px solid seagreen;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -159,16 +162,23 @@ span{
 }
 .self-advertisement{
     background-color: #3882F6;
-    min-width: 70%;
-    max-width: 70%;
+    min-width: 60%;
+    max-width: 60%;
     display: flex;
     border-radius: 10px;
 }
-.left-side-ad{
-    padding: 8px 16px;
+.ad{
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
 }
-.right-side-ad{
-    color: black;
+.ad-descript{
+    margin-top: 0;
+}
+h3{
+    width: 300px;
 }
 
 /* Footer */
