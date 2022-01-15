@@ -1,0 +1,108 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.top-page-background{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.top-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    min-width: 80%;
+    max-width: 80%;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.advertisement-for-service{
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    min-width: 80%;
+    max-width: 80%;
+}
+.clickbait{
+    display: flex;
+    flex-direction: column;
+}
+.hero-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sign-up-btn-top{
+    background-color: #3882F6;
+    width: 128px;
+    margin: 10px 0px;
+}
+.sign-up-btn-bottom{
+    background-color: #3882F6;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.egg-ad{
+    height: auto;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.upper-middle{
+    display: flex;
+    flex-direction: column;
+}
+.information-header-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+.egg{
+    width: 200px;
+    height: auto;
+}
+.lower-middle{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+.testimonial{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 80%;
+    min-width: 80%;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+.self-advertisement{
+    background-color: #3882F6;
+    max-width: 80%;
+    min-width: 80%;
+}
